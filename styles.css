@@ -46,6 +46,34 @@ footer {
     background: #ebb774;
 }
 
+
+.about p{
+    background-color: #ecc5a1;
+    border-radius: 10px;
+    font-weight: 550;
+    margin: 30px auto 0px; /* top, horizontal, bottom */
+    padding: 20px;
+    line-height: 1.5;   
+    text-align: center;
+    width: 70%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.work-header {
+    background-color: #ecc5a1;
+    border-radius: 10px;
+    padding: 1px;
+    margin: -60px auto 20px 0; /* Tried changing margin for different element values  and resorted to -60px as last option for desired result. */
+    text-align: center;
+    width: 10%; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img:hover {
+    filter: contrast(200%);
+    filter: hue-rotate(90deg);
+}
+
 .project {
     background-color: #dac7b5; 
     margin-bottom: 20px; /* Reminder to use this for spacing project entries */
@@ -54,22 +82,16 @@ footer {
 }
 
 .project h3 {
-    margin-top: 20px; 
+    margin-top: 1px; 
     text-align: left;
 }
 
 .project p {
-    margin-top: 10px;  
-    padding: 5px;   
+    margin-top: 0px;  
+    padding: 1px;   
     text-align: left;  
     width: 50%;
 }
-
-
-img:hover {
-    filter: contrast(200%);
-    filter: hue-rotate(90deg);
-  }
 
 /* Responsive design rules */
 @media (min-width: 600px) {
