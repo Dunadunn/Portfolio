@@ -62,11 +62,16 @@ footer {
 .work-header {
     background-color: #ecc5a1;
     border-radius: 10px;
-    padding: 1px;
-    margin: -60px auto 20px 0; /* Tried changing margin for different element values  and resorted to -60px as last option for desired result. */
+    padding: 10px;
+    margin: -40px auto 20px 0; /* Tried changing margin for different element values  and resorted to -40px as last option for desired result. */
     text-align: center;
-    width: 10%; 
+    width: 20%; 
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 img:hover {
@@ -95,7 +100,9 @@ img:hover {
 
 /* Responsive design rules */
 @media (min-width: 600px) {
-    /* Styles for screens that are 600px or larger */
+    .about p {
+        width: 70%;  /* narrower on larger screens */
+    }
 }
 
 @media (min-width: 960px) {
